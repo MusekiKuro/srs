@@ -1,0 +1,15 @@
+:root { --accent: #13243b; --bg: #ffffff; --border: #d9e0ea; }
+body { margin: 0; font-family: 'Times New Roman', Georgia, serif; background: var(--bg); color: #111; }
+.app { max-width: 960px; margin: 0 auto; padding: 24px; }
+.warn { background: #fff8e1; border: 1px solid #e8c547; padding: 8px 12px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.editor { display: grid; grid-template-columns: 220px 1fr; gap: 16px; }
+.toc { border-right: 1px solid var(--border); padding-right: 12px; }
+.chapter { border: 1px solid var(--border); padding: 12px; margin-bottom: 12px; }
+.chapter input, .chapter textarea { width: 100%; box-sizing: border-box; margin-bottom: 8px; font-family: inherit; font-size: 16px; }
+.modal { border: 1px solid var(--border); padding: 16px; max-width: 480px; margin: 24px auto; }
+.modal label { display: block; margin-bottom: 8px; }
+.modal input, .modal select { width: 100%; box-sizing: border-box; }
+.works { list-style: none; padding: 0; }
+.work-card { display: flex; justify-content: space-between; gap: 8px; border: 1px solid var(--border); padding: 8px; margin-bottom: 8px; }
+@media (max-width: 640px) { .editor { grid-template-columns: 1fr; } .toc { border-right: none; border-bottom: 1px solid var(--border); padding-bottom: 8px; } }

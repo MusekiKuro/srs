@@ -1,0 +1,22 @@
+{
+  "name": "srs-platform",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "docx": "9.7.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.1.1",
+    "jszip": "^3.10.2",
+    "vite": "8.3.1",
+    "vitest": "5.0.1"
+  }
+}
